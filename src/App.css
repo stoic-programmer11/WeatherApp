@@ -1,0 +1,73 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url('https://i0.wp.com/enlacelatinonc.org/wp-content/uploads/2022/06/El-Clima-4.jpg?fit=1200%2C676&ssl=1');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+.weather-card{
+    background: lightgray;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 5%;
+}
+
+.weather-icon{
+    width: 12rem;
+    height: 12rem;
+    background: lightblue;
+    border-radius: 50%;
+    margin-left: 2rem;
+}
+
+.info-section{
+    /* background: green; */
+    display: flex;
+}
+
+.info-column>ul{
+    list-style: none;
+    text-align: left;
+}
+
+.info-column>ul>li{
+    padding-bottom: 1rem;
+    font-size: larger;
+}
+
+.info-column>ul>li>b{
+    color: blue;
+}
+
+
+.weather-description{
+    text-transform: uppercase;
+}
+
+.weather-card>p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.unit-change-button{
+    font-size: 1.5rem;
+    border-radius: 10%;
+    background: lightblue;
+}
+
+.unit-change-button:hover{
+    cursor: pointer;
+}
