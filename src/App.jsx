@@ -46,7 +46,7 @@ function App() {
 
           <div className='info-column'>
             <ul>
-              <li className='weather-description'> <b>" {weather.weather?.[0].description} "</b>  </li>
+              <li className='weather-description'> <b>"{weather.weather?.[0].description}"</b>  </li>
               <li><b> Wind Speed: </b>{weather.wind?.speed} {"m/s"}</li>
               <li><b>Clouds: </b>{weather.clouds?.all}{"%"}</li>
               <li><b>Preassure: </b>{weather.main?.pressure}{" mb"}</li>

@@ -38,9 +38,12 @@ body{
     display: flex;
 }
 
+
+
 .info-column>ul{
     list-style: none;
     text-align: left;
+    margin-right: 0.5rem;
 }
 
 .info-column>ul>li{
@@ -55,6 +58,7 @@ body{
 
 .weather-description{
     text-transform: uppercase;
+    text-align: center;
 }
 
 .weather-card>p{
@@ -71,3 +75,4 @@ body{
 .unit-change-button:hover{
     cursor: pointer;
 }
+
